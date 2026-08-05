@@ -1,14 +1,17 @@
-# Week 2: Titanic Analysis
+# 🚢 Week 2: Titanic Analysis
 
-## Project Status
-This week focuses on the initial data ingestion and cleaning phase of the PlacementPredict project.
+## 📌 Project Status
+This module focuses on the initial data ingestion and cleaning phase of the **PlacementPredict** anchor project.
 
-## Tasks
+### ✅ Completed Tasks
 - [x] Load raw Titanic CSV data.
 - [x] Initial data inspection and structure analysis.
+
+### 🔜 Upcoming Work
 - [ ] Exploratory Data Analysis (EDA).
+- [ ] Missing Value Treatment.
 - [ ] Feature engineering pipeline.
 
-## Contents
+## 📂 Folder Contents
 - `titanic.csv`: Raw passenger data.
 - `analysis.py`: Data loading script.
