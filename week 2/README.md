@@ -1,12 +1,14 @@
-# Week 2: Titanic Data Analysis
+# Week 2: Titanic Analysis
 
-## Overview
-This folder contains the initial setup for the Titanic dataset analysis as part of the PlacementPredict anchor project build.
+## Project Status
+This week focuses on the initial data ingestion and cleaning phase of the PlacementPredict project.
+
+## Tasks
+- [x] Load raw Titanic CSV data.
+- [x] Initial data inspection and structure analysis.
+- [ ] Exploratory Data Analysis (EDA).
+- [ ] Feature engineering pipeline.
 
 ## Contents
-- `titanic.csv`: The raw dataset containing passenger information.
-- `analysis.py`: Python script for loading the data and displaying the initial structure.
-
-## Tasks Completed
-- [x] Load dataset using pandas.
-- [x] Display data head for inspection.
+- `titanic.csv`: Raw passenger data.
+- `analysis.py`: Data loading script.
