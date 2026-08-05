@@ -24,6 +24,9 @@ Initial setup and foundational logic for the **PlacementPredict** anchor project
 - [x] Dataset ingestion and verification.
 - [x] Repository structure initialization.
 
+### 📊 Analysis Reports
+- [Week 1 EDA Report](./Week1_EDA_Report.md)
+
 ### 🔜 Upcoming Work
 - [ ] Exploratory Data Analysis (Week 1 module).
 - [ ] Outlier detection scripts.
