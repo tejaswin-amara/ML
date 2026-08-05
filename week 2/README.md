@@ -32,6 +32,6 @@ This module focuses on the initial data ingestion and cleaning phase of the **Pl
 ## 📂 Folder Contents
 - `titanic.csv`: Raw passenger data.
 - `analysis.py`: Data loading script.
-- `Titanic_EDA_Report.pdf`: Detailed exploratory data analysis report.
+- `[Titanic_EDA_Report.pdf](./Titanic_EDA_Report.pdf)`: Detailed exploratory data analysis report.
 - `Experiment_2_Titanic_Analysis.ipynb`: Comprehensive notebook for Titanic data exploration.
 - `Experiment_2_Titanic_Analysis.ipynb`: Comprehensive notebook for Titanic data exploration.
