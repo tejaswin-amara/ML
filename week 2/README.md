@@ -25,10 +25,11 @@ This module focuses on the initial data ingestion and cleaning phase of the **Pl
 - [x] Integrated data summary into README.
 
 ### 🔜 Upcoming Work
-- [ ] Exploratory Data Analysis (EDA).
+- [x] Exploratory Data Analysis (EDA) (Report Added).
 - [ ] Missing Value Treatment.
 - [ ] Feature engineering pipeline.
 
 ## 📂 Folder Contents
 - `titanic.csv`: Raw passenger data.
 - `analysis.py`: Data loading script.
+- `Titanic_EDA_Report.pdf`: Detailed exploratory data analysis report.
