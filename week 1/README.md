@@ -1,44 +1,25 @@
-# 🚀 PlacementPredict: Python Primer for Machine Learning
+# 📘 Week 1: Foundations & Python Primer
 
-Welcome to the foundation of the **PlacementPredict** series. This repository contains **Experiment 0**, a comprehensive primer designed to bridge the gap between basic Python and applied Machine Learning.
+## 📌 Module Overview
+Initial setup, Python foundations, and the first look at the **PlacementPredict** dataset.
 
-## 📋 Overview
-This experiment serves as a pre-requisite for the 12-part PlacementPredict series. It consolidates essential Python syntax and data science libraries into a single, end-to-end pipeline.
+### 📊 Data Preview (Placement Predict 50k)
 
-### 🧠 Concepts Covered
-1.  **Variables & Types**: Understanding dynamic typing in Python.
-2.  **Operators**: Math and logic for data filtering.
-3.  **Strings**: Using f-strings for clean metric reporting.
-4.  **Lists**: Managing feature sets and column names.
-5.  **Dictionaries**: Mapping model names to estimators.
-6.  **Control Flow**: implementing logic gates for data quality.
-7.  **Loops**: Iterating through hyperparameter sweeps.
-8.  **Functions**: Building reusable evaluation blocks.
-9.  **Library Imports**: Mastering `pandas`, `numpy`, and `scikit-learn`.
-10. **Pipeline Integration**: A full end-to-end ML workflow.
+#### Dataset Summary
+- **Rows:** 50000
+- **Columns:** 32
+- **Features:** StudentID, Gender, City, CollegeTier, Stream, Specialisation, Hostel, HistoryOfBacklogs, SGPA_Sem1, SGPA_Sem2, SGPA_Sem3, SGPA_Sem4, SGPA_Sem5, SGPA_Sem6, SGPA_Sem7, SGPA_Sem8, CGPA, AttendancePercent, Internships, Projects, Workshops, Certifications, Publications, AptitudeTestScore, SoftSkillsRating, CodingTestScore, MockInterviewScore, ExtraCurricular, CGPA_Tier, PlacementStatus, IsAnomaly, Salary Package
 
-## 📊 Dataset: PlacementPredict 50k
-The project utilizes a synthetic dataset containing 50,000 student records with features such as:
-*   **CGPA**
-*   **Aptitude Test Score**
-*   **Coding Test Score**
-*   **Attendance Percentage**
+#### First 5 Rows
+|   StudentID | Gender   | City      | CollegeTier   | Stream   | Specialisation   | Hostel   | HistoryOfBacklogs   |   SGPA_Sem1 |   SGPA_Sem2 |   SGPA_Sem3 |   SGPA_Sem4 |   SGPA_Sem5 |   SGPA_Sem6 |   SGPA_Sem7 |   SGPA_Sem8 |   CGPA |   AttendancePercent |   Internships |   Projects |   Workshops |   Certifications |   Publications |   AptitudeTestScore |   SoftSkillsRating |   CodingTestScore |   MockInterviewScore |   ExtraCurricular | CGPA_Tier   |   PlacementStatus |   IsAnomaly |   Salary Package |
+|------------:|:---------|:----------|:--------------|:---------|:-----------------|:---------|:--------------------|------------:|------------:|------------:|------------:|------------:|------------:|------------:|------------:|-------:|--------------------:|--------------:|-----------:|------------:|-----------------:|---------------:|--------------------:|-------------------:|------------------:|---------------------:|------------------:|:------------|------------------:|------------:|-----------------:|
+|           1 | Male     | Ahmedabad | Tier2         | ECE      | Networking       | No       | No                  |        6.02 |        6.54 |        6.52 |        6    |        6.47 |        5.91 |        6.49 |        5.5  |   6.29 |                73.3 |             1 |          2 |         nan |                2 |              0 |                66.7 |                2.2 |              49.4 |                 47.8 |                 0 | Low         |                 0 |           0 |             0    |
+|           2 | Female   | Mumbai    | Tier2         | ECE      | DataScience      | Yes      | Yes                 |        5.84 |        5.12 |        5.34 |        5.18 |        5.03 |        4.93 |        5.4  |        5.13 |   5.23 |                54.5 |             0 |          1 |           0 |                1 |              0 |                48.2 |                2.4 |              26.7 |                 25.8 |                 0 | Low         |                 0 |           0 |             0    |
+|           3 | Male     | Kolkata   | Tier2         | IT       | DataScience      | Yes      | No                  |        4.91 |        5.29 |        5.49 |        5.73 |        5.33 |        5.88 |        5.82 |        5.67 |   5.52 |                77.6 |             1 |          3 |           1 |                1 |              0 |                73.8 |                2.8 |              67.7 |                 41.5 |                 0 | Low         |                 1 |           0 |             3.89 |
+|           4 | Male     | Jaipur    | Tier1         | CS       | AI               | No       | No                  |        7.67 |        8.03 |        8.08 |        7.64 |        6.86 |        7.1  |        7.56 |        7.39 |   7.51 |                68.8 |             1 |          2 |           1 |                2 |              0 |                69.8 |                2.7 |              66.9 |                 48   |                 0 | Mid         |                 1 |           0 |             8.37 |
+|           5 | Male     | Pune      | Tier2         | IT       | DataScience      | Yes      | No                  |        8.14 |        8.97 |        8.36 |        8.55 |        8.55 |        8.38 |        9.1  |        8.86 |   8.65 |                95.8 |             2 |          3 |         nan |                4 |              1 |                73.1 |                2.1 |              71.7 |                 61.7 |                 1 | High        |                 1 |           0 |            18.99 |
 
-## 🤖 Model Performance
-In this primer, we implemented two baseline classifiers to predict placement status:
-
-| Model | Accuracy |
-| :--- | :--- |
-| **Logistic Regression** | 87.7% |
-| **Decision Tree** | 87.7% |
-
-## 🛠️ Setup & Usage
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/tejaswin-amara/ML.git
-   ```
-2. Open `Experiment_0_Python_Primer.ipynb` in Google Colab or Jupyter Notebook.
-3. Ensure the dataset `placement_predict_50k Dataset.csv` is in the same directory.
-
----
-*Created as part of the Applied Machine Learning Curriculum.*
+## 📂 Folder Contents
+- `Experiment_0_Python_Primer.ipynb`: Introductory Python exercises.
+- `experiment_0_logic.py`: Core logic scripts.
+- `placement_predict_50k Dataset.csv`: The anchor project dataset.
