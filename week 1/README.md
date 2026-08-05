@@ -1,7 +1,7 @@
 # 📘 Week 1: Foundations & Python Primer
 
-## 📌 Module Overview
-Initial setup, Python foundations, and the first look at the **PlacementPredict** dataset.
+## 📌 Project Status
+Initial setup and foundational logic for the **PlacementPredict** anchor project.
 
 ### 📊 Data Preview (Placement Predict 50k)
 
@@ -19,7 +19,16 @@ Initial setup, Python foundations, and the first look at the **PlacementPredict*
 |           4 | Male     | Jaipur    | Tier1         | CS       | AI               | No       | No                  |        7.67 |        8.03 |        8.08 |        7.64 |        6.86 |        7.1  |        7.56 |        7.39 |   7.51 |                68.8 |             1 |          2 |           1 |                2 |              0 |                69.8 |                2.7 |              66.9 |                 48   |                 0 | Mid         |                 1 |           0 |             8.37 |
 |           5 | Male     | Pune      | Tier2         | IT       | DataScience      | Yes      | No                  |        8.14 |        8.97 |        8.36 |        8.55 |        8.55 |        8.38 |        9.1  |        8.86 |   8.65 |                95.8 |             2 |          3 |         nan |                4 |              1 |                73.1 |                2.1 |              71.7 |                 61.7 |                 1 | High        |                 1 |           0 |            18.99 |
 
+### ✅ Completed Tasks
+- [x] Initial Python logic implementation.
+- [x] Dataset ingestion and verification.
+- [x] Repository structure initialization.
+
+### 🔜 Upcoming Work
+- [ ] Exploratory Data Analysis (Week 1 module).
+- [ ] Outlier detection scripts.
+
 ## 📂 Folder Contents
 - `Experiment_0_Python_Primer.ipynb`: Introductory Python exercises.
 - `experiment_0_logic.py`: Core logic scripts.
-- `placement_predict_50k Dataset.csv`: The anchor project dataset.
+- `placement_predict_50k Dataset.csv`: Primary dataset for the course.
