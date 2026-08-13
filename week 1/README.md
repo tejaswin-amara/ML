@@ -28,7 +28,7 @@ Initial setup and foundational logic for the **PlacementPredict** anchor project
 - [Week 1 EDA Report](./Week1_EDA_Report.md)
 
 ### 🔜 Upcoming Work
-- [ ] Exploratory Data Analysis (Week 1 module).
+- [x] Exploratory Data Analysis (Visuals generated).
 - [x] Outlier detection scripts (Report generated).
 
 ## 📂 Folder Contents
@@ -36,3 +36,6 @@ Initial setup and foundational logic for the **PlacementPredict** anchor project
 - `experiment_0_logic.py`: Core logic scripts.
 - `placement_predict_50k Dataset.csv`: Primary dataset for the course.
 - `Outlier_Report.md`: List of detected anomalies.
+
+- `performance_analysis.png`: Visual correlation of student metrics.
+- `placement_predict_engineered.csv`: Dataset with engineered performance features.
