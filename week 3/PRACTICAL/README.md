@@ -1,6 +1,9 @@
-# 📊 Week 3 Practical Tasks
+# 📊 Week 3: Practical Tasks - Advanced EDA
 
-## 📌 Contents
-- [Experiment 3](./Experiment_3.ipynb)
-- [Comprehensive Notebook](./Experiment_3_Comprehensive.ipynb)
-- Visualizations are located in the `/plots` subfolder.
+## 📌 Overview
+Advanced bivariate analysis and multi-dataset comparison using Iris, Diabetes, and MTCars datasets.
+
+### 📊 Contents
+- [Experiment_3.ipynb](./Experiment_3.ipynb): Comprehensive analysis notebook.
+- 📂 [datasets/](./datasets/): Supplemental CSV files (Iris, Diabetes, MTCars).
+- 📂 [plots/](./plots/): Generated distribution and correlation visuals.

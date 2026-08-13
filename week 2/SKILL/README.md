@@ -1,7 +1,7 @@
-# week 2 - SKILL
+# 🛠️ Week 2 - Skill Tasks
 
 ## 📌 Overview
-This folder contains the skill tasks for week 2.
+This folder contains skill-based exercises and specialized scripts for Week 2.
 
 ### 📊 Contents
-- All visualizations, notes, and code related to this module are stored here.
+- Tasks focused on tool mastery and specific coding challenges.

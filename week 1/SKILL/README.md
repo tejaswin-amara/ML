@@ -1,7 +1,7 @@
-# week 1 - SKILL
+# 🛠️ Week 1 - Skill Tasks
 
 ## 📌 Overview
-This folder contains the skill tasks for week 1.
+This folder contains skill-based exercises and specialized scripts for Week 1.
 
 ### 📊 Contents
-- All visualizations, notes, and code related to this module are stored here.
+- Tasks focused on tool mastery and specific coding challenges.
