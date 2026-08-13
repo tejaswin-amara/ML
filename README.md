@@ -19,7 +19,8 @@
 
 ### 🏗️ Repository Structure
 *   📂 **[week 1/](week%201/)** - Foundations, Python Primers, and Ingestion Logic.
-*   📂 **[week 2/](week%202/)** - Titanic Analysis & Data Pipeline Initiation.
+*   📂 **[week 2/](week%202/)**
+*   📂 **[week 3/](week%203/)** - Advanced Analysis & Supplemental Datasets. - Titanic Analysis & Data Pipeline Initiation.
 
 ### ⚓ Anchor Project: **PlacementPredict**
 A robust ML system predicting student placement outcomes (~50k records). The project coverage includes:
