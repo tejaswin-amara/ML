@@ -29,9 +29,10 @@ Initial setup and foundational logic for the **PlacementPredict** anchor project
 
 ### 🔜 Upcoming Work
 - [ ] Exploratory Data Analysis (Week 1 module).
-- [ ] Outlier detection scripts.
+- [x] Outlier detection scripts (Report generated).
 
 ## 📂 Folder Contents
 - `Experiment_0_Python_Primer.ipynb`: Introductory Python exercises.
 - `experiment_0_logic.py`: Core logic scripts.
 - `placement_predict_50k Dataset.csv`: Primary dataset for the course.
+- `Outlier_Report.md`: List of detected anomalies.

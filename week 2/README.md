@@ -26,8 +26,8 @@ This module focuses on the initial data ingestion and cleaning phase of the **Pl
 
 ### 🔜 Upcoming Work
 - [x] Exploratory Data Analysis (EDA) (Report Added).
-- [ ] Missing Value Treatment.
-- [ ] Feature engineering pipeline.
+- [x] Missing Value Treatment (Imputed age & embarked_town).
+- [x] Feature Engineering (FamilySize & IsAlone).
 
 ## 📂 Folder Contents
 - `titanic.csv`: Raw passenger data.
@@ -35,3 +35,5 @@ This module focuses on the initial data ingestion and cleaning phase of the **Pl
 - `[Titanic_EDA_Report.pdf](./Titanic_EDA_Report.pdf)`: Detailed exploratory data analysis report.
 - `Experiment_2_Titanic_Analysis.ipynb`: Comprehensive notebook for Titanic data exploration.
 - `Experiment_2_Titanic_Analysis.ipynb`: Comprehensive notebook for Titanic data exploration.
+
+- `titanic_cleaned.csv`: Processed dataset with missing values handled and new features.
