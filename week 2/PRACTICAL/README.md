@@ -1,7 +1,6 @@
-# week 2 - PRACTICAL
+# 📊 Week 2 Practical Tasks
 
-## 📌 Overview
-This folder contains the practical tasks for week 2.
-
-### 📊 Contents
-- All visualizations, notes, and code related to this module are stored here.
+## 📌 Contents
+- [Experiment 2](./Experiment_2.ipynb)
+- [Titanic EDA Report](./Titanic_EDA_Report.pdf)
+- Processed Data: `titanic_cleaned.csv`

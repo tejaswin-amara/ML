@@ -1,7 +1,6 @@
-# week 3 - PRACTICAL
+# 📊 Week 3 Practical Tasks
 
-## 📌 Overview
-This folder contains the practical tasks for week 3.
-
-### 📊 Contents
-- All visualizations, notes, and code related to this module are stored here.
+## 📌 Contents
+- [Experiment 3](./Experiment_3.ipynb)
+- [Comprehensive Notebook](./Experiment_3_Comprehensive.ipynb)
+- Visualizations are located in the `/plots` subfolder.
